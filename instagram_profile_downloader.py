@@ -8,6 +8,14 @@ root.title('Instagram profile downloader!')
 root.geometry('300x250')
 root.resizable(width=False, height=False)
 
+#  user name lable----------------------
+usernamelable = tk.Label(root, text='User Name:')
+usernamelable.place(x=25, y=40)
+
+#  user name entry----------------------
+username = Entry(root)
+username.place(x=95, y=40)
+
 
 # main loop-----------------------------
 root.mainloop()
