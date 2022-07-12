@@ -16,6 +16,9 @@ usernamelable.place(x=25, y=40)
 username = Entry(root)
 username.place(x=95, y=40)
 
+#  profile download button--------------
+pb = Button(root, text='Get Profile image') 
+pb.place(x=95, y=150)
 
 # main loop-----------------------------
 root.mainloop()
