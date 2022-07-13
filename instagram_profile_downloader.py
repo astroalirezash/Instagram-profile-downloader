@@ -1,5 +1,13 @@
 import tkinter as tk
 from tkinter import *
+import instaloader
+
+#  ======================== Instaloader func ======================================
+
+def prof_downloader():
+    loader = instaloader.Instaloader()
+    loader.download_profile(username.get(), profile_pic_only=True)
+
 
 #  ========================= GUI ===================================================
 #  general settings
@@ -17,7 +25,7 @@ username = Entry(root)
 username.place(x=95, y=40)
 
 #  profile download button--------------
-pb = Button(root, text='Get Profile image') 
+pb = Button(root, text='Get Profile image', command=lambda: prof_downloader()) 
 pb.place(x=95, y=150)
 
 # main loop-----------------------------
