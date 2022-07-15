@@ -16,6 +16,10 @@ root.title('Instagram profile downloader!')
 root.geometry('300x250')
 root.resizable(width=False, height=False)
 
+# some customiz-------------------------
+frame = LabelFrame(root, text='Instagram', bg='#f0f0f0', font=(20))
+frame.pack(expand=True, fill=BOTH)
+
 #  user name lable----------------------
 usernamelable = tk.Label(root, text='User Name:')
 usernamelable.place(x=25, y=40)
