@@ -16,7 +16,7 @@ root.title('Instagram profile downloader!')
 root.geometry('300x250')
 root.resizable(width=False, height=False)
 
-# some customiz-------------------------
+# some customize-------------------------
 frame = LabelFrame(root, text='Instagram', bg='#f0f0f0', font=(20))
 frame.pack(expand=True, fill=BOTH)
 
